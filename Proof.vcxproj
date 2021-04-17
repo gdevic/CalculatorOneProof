@@ -22,9 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{4651da83-ed6d-4df2-b9a3-090f4d2ebbac}</ProjectGuid>
-    <RootNamespace>CalcOneProof</RootNamespace>
+    <RootNamespace>Proof</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CalcOneProof</ProjectName>
+    <ProjectName>Proof</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddSub.cpp" />
-    <ClCompile Include="CalcOneProof.cpp" />
+    <ClCompile Include="Proof.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Div.cpp" />
     <ClCompile Include="Input.cpp" />
